@@ -23,3 +23,8 @@ echo"*******************\n\n";
 $nombre = readline('Ingresar nombre: >');
 $apellido = readline('Ingresar apellido: >');
 echo "\nHola, " . $nombre ." ". $apellido . "\n";
+
+#Reto 3
+echo"*******************\n";
+echo"*      Reto #3    *\n";
+echo"*******************\n\n";
