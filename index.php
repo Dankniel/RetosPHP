@@ -12,4 +12,14 @@ echo"*      Reto #1    *\n";
 echo"*******************\n\n";
 
 $nombre = readline('Ingresar nombre: >');
-echo "\nHola, " . $nombre . "\n";
+echo "\nHola, " . $nombre . "\n\n";
+
+
+#Reto 2
+echo"*******************\n";
+echo"*      Reto #2    *\n";
+echo"*******************\n\n";
+
+$nombre = readline('Ingresar nombre: >');
+$apellido = readline('Ingresar apellido: >');
+echo "\nHola, " . $nombre ." ". $apellido . "\n";
