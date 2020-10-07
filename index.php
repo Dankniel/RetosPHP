@@ -91,3 +91,20 @@ if ($rest == 0){
     echo "\n╚(•⌂•)╝ ¡Quedan solo " . $rest . " rebanadas! ╚(•⌂•)╝\n\n";
 }
 
+function EdadFutura(int $edad, int $anio) {
+    return $edad + $anio;
+  }
+
+#Reto 7
+echo"*******************\n";
+echo"*      Reto #7    *\n";
+echo"*******************\n\n";
+
+$nombre = readline('Ingresar nombre: >');
+$edad = readline('Ingresar edad: >');
+
+echo "\n[" . $nombre . "]" . " el año pasado tenías " . EdadFutura($edad, -1) . " y el próximo año cumplirás " . EdadFutura($edad, 1) . " años.\n\n";
+
+//$suma = $num1 + $num2;
+//$mult = $suma * $num3;
+
