@@ -22,9 +22,17 @@ echo"*******************\n\n";
 
 $nombre = readline('Ingresar nombre: >');
 $apellido = readline('Ingresar apellido: >');
-echo "\nHola, " . $nombre ." ". $apellido . "\n";
+echo "\nHola, " . $nombre ." ". $apellido . "\n\n";
 
 #Reto 3
 echo"*******************\n";
 echo"*      Reto #3    *\n";
 echo"*******************\n\n";
+
+$categorias = array("Desarrollo e ingeniería", "Marketing", "Producción Audiovisual",
+                    "Startups", "Diseño y UX", "Negocios y empredimiento", "Crecimiento Profesional");
+
+echo "\nPlatzi cuenta con cursos de:\n";
+foreach ($categorias as $x) {
+    echo "[" . $x . "]\n";
+}                  
