@@ -47,4 +47,18 @@ $num1 = readline('Ingresar Primer número: >');
 $num2 = readline('Ingresar Segundo número: >');
 $suma = $num1 + $num2;
 
-echo "\n" . $num1 ." + ". $num2 . " = " . $suma . "\n";
+echo "\n" . $num1 ." + ". $num2 . " = " . $suma . "\n\n";
+
+#Reto 5
+echo"*******************\n";
+echo"*      Reto #5    *\n";
+echo"*******************\n\n";
+
+$num1 = readline('Ingresar Primer número: >');
+$num2 = readline('Ingresar Segundo número: >');
+$num3 = readline('Ingresar Tercer número: >');
+$suma = $num1 + $num2;
+$mult = $suma * $num3;
+
+echo "\nDatos de entrada: " . $num1 .", ". $num2 . ", " . $num3 . "\n";
+echo "Resultado: " . $mult;
