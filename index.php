@@ -61,7 +61,7 @@ $suma = $num1 + $num2;
 $mult = $suma * $num3;
 
 echo "\nDatos de entrada: " . $num1 .", ". $num2 . ", " . $num3 . "\n";
-echo "Resultado: " . $mult;
+echo "Resultado: " . $mult. "\n\n";
 
 #Reto 6
 echo"*******************\n";
