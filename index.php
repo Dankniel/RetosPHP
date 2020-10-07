@@ -1,5 +1,5 @@
 <?php
-/*
+
 echo "\n***************************************************\n";
 echo "*             Retos de programación - PHP         *\n";
 echo "*         Curso de fundamentos de PHP de Platzi   *\n";
@@ -61,7 +61,7 @@ $suma = $num1 + $num2;
 $mult = $suma * $num3;
 
 echo "\nDatos de entrada: " . $num1 .", ". $num2 . ", " . $num3 . "\n";
-echo "Resultado: " . $mult;*/
+echo "Resultado: " . $mult;
 
 #Reto 6
 echo"*******************\n";
