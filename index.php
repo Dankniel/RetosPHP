@@ -1,5 +1,5 @@
 <?php
-
+/*
 echo "\n***************************************************\n";
 echo "*             Retos de programación - PHP         *\n";
 echo "*         Curso de fundamentos de PHP de Platzi   *\n";
@@ -61,4 +61,33 @@ $suma = $num1 + $num2;
 $mult = $suma * $num3;
 
 echo "\nDatos de entrada: " . $num1 .", ". $num2 . ", " . $num3 . "\n";
-echo "Resultado: " . $mult;
+echo "Resultado: " . $mult;*/
+
+#Reto 6
+echo"*******************\n";
+echo"*      Reto #6    *\n";
+echo"*******************\n\n";
+
+echo"Llegaste a una fiesta!\n";
+$rest = 1;
+do{
+    $num1 = readline('¿Cuantas rebanadas de pizza trajiste?: >');
+    echo"\n** Pasan las horas en la fiesta.......... **\n";
+    $num2 = readline('¿Cuantas rebanadas de pizza se comieron?: >');
+    $rest = $num1 - $num2; 
+
+    if ($rest < 0) {
+        echo chr(27).chr(91).'H'.chr(27).chr(91).'J';   //^[H^[J  
+        echo "\nERROR! - No es posible que se hayan comido mas rebanadas de las que llevaste\n";
+        echo "Por favor ingrese los datos nuevamente....\n\n";
+    }
+} while ($rest < 0);
+
+if ($rest == 0){
+    echo "\n╚(•⌂•)╝ ¡No quedó nada de pizza! ╚(•⌂•)╝\n\n";
+} elseif ($rest == 1) {
+    echo "\n╚(•⌂•)╝ ¡Queda 1 sola rebanada de pizza! ╚(•⌂•)╝\n\n";
+} else {
+    echo "\n╚(•⌂•)╝ ¡Quedan solo " . $rest . " rebanadas! ╚(•⌂•)╝\n\n";
+}
+
