@@ -35,4 +35,16 @@ $categorias = array("Desarrollo e ingeniería", "Marketing", "Producción Audiov
 echo "\nPlatzi cuenta con cursos de:\n";
 foreach ($categorias as $x) {
     echo "[" . $x . "]\n";
-}                  
+}
+echo "\n";                  
+
+#Reto 4
+echo"*******************\n";
+echo"*      Reto #4    *\n";
+echo"*******************\n\n";
+
+$num1 = readline('Ingresar Primer número: >');
+$num2 = readline('Ingresar Segundo número: >');
+$suma = $num1 + $num2;
+
+echo "\n" . $num1 ." + ". $num2 . " = " . $suma . "\n";
