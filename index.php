@@ -108,7 +108,7 @@ echo "\n[" . $nombre . "]" . " el año pasado tenías " . EdadFutura($edad, -1) 
 //$suma = $num1 + $num2;
 //$mult = $suma * $num3;
 
-#Reto 7
+#Reto 8
 echo"*******************\n";
 echo"*      Reto #8    *\n";
 echo"*******************\n\n";
@@ -124,7 +124,21 @@ echo"\n\n";
 $final = ($total + ($total * ($propina * 0.01) + ($total * ($iva * 0.01))));
 
 echo "El total a pagar incluyendo impuestos y propina serían $" . $final . "\n";
-echo "Cada persona debe pagar $" . $final / $personas . "\n"; 
+echo "Cada persona debe pagar $" . $final / $personas . "\n\n"; 
+
+
+
+#Reto 9
+echo"*******************\n";
+echo"*      Reto #9    *\n";
+echo"*******************\n\n";
+
+$dias = readline('Ingrese cantidad de días: >');
+
+echo "\nEn " . $dias . " días hay " . $dias * 24 . " horas " . ($dias * 24) * 60 . " minutos y " . ((($dias * 24) * 60) * 60) . " segundos.\n\n";
+
+
+
 
 
 
