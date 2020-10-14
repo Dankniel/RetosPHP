@@ -108,3 +108,23 @@ echo "\n[" . $nombre . "]" . " el año pasado tenías " . EdadFutura($edad, -1) 
 //$suma = $num1 + $num2;
 //$mult = $suma * $num3;
 
+#Reto 7
+echo"*******************\n";
+echo"*      Reto #8    *\n";
+echo"*******************\n\n";
+
+echo "* Vas con tus amigos a tu restaurante favorito y luego de una buena comida, deben pagar la cuenta *\n\n";
+$total = readline('Ingrese total a pagar: >');
+$personas = readline('Ingrese cantidad de personas en la que se dividirá la cuenta: >');
+$propina = readline('Porcentaje de propina a incluir: >');
+$iva = readline('Porcentaje del IVA: >');
+echo"\n\n";
+
+//Calcular cuenta
+$final = ($total + ($total * ($propina * 0.01) + ($total * ($iva * 0.01))));
+
+echo "El total a pagar incluyendo impuestos y propina serían $" . $final . "\n";
+echo "Cada persona debe pagar $" . $final / $personas . "\n"; 
+
+
+
